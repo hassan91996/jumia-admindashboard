@@ -1,0 +1,85 @@
+.AddCategory{
+    width: 650px;
+    margin: 40px auto 0;
+    padding: 70px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #444;
+    position: relative;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    
+}
+
+.AddCategory  .secHeader {
+    width: 100%;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.AddCategory .secHeader .Hcontainer {
+    background-color: #555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    color: #ccc;
+}
+
+.AddCategory .secHeader>p {
+    color: #ccc;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.AddCategory .AddCategoryForm {
+    width: 100%;
+    background-color: #3c3c3c;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+.AddCategoryForm input{
+   height: 44px;
+   width: 95%;
+   margin: 5px auto;
+   border: 1px solid #555;
+   border-radius: 5px;
+   background-color: #333;
+   color: #ccc;
+   font-size: 16px;
+   padding:0 5px;
+
+}
+
+
+.AddCategoryForm >button {
+    width: 95%;
+    margin: 5px 0;
+    padding: 10px;
+    color: white;
+    background-color: #56ad00;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.AddCategoryForm >button:disabled {
+    background: #666;
+    cursor: not-allowed;
+    opacity: .5;
+}
+
+

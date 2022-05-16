@@ -1,0 +1,65 @@
+.Tree {
+    display: flex;
+    width: 100%;
+    display: flex;
+    color: #888;
+    overflow: auto;
+}
+
+.Tree ul {
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #444;
+    margin-left: 2px;
+    min-width: 220px;
+    max-width: 220px;
+}
+
+.Tree ul li {
+    cursor: pointer;
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.Tree .active {
+    background-color: #565656;
+    color: #eae1e1;
+}
+
+.Tree .cliked {
+    background-color: #059013;
+    color: #fff;
+}
+
+.Tree .Parent::after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: calc(50% - 4px);
+    width: 8px;
+    height: 8px;
+    border: solid #888;
+    border-width: 2px 0 0 2px;
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+
+}
+
+.Tree .expand::after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: calc(50% - 4px);
+    width: 8px;
+    height: 8px;
+    border: solid #fff;
+    border-width: 2px 0 0 2px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}

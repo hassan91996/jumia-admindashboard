@@ -1,0 +1,74 @@
+.InputSizes{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+.InputSizes .sizesheader{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: 30px;
+    padding: 2px 5px;
+    background-color: #555;
+}
+.sizesheader P{
+    font-size: 18px;
+    color: #bbb;
+}
+.sizesheader .Buttons{
+    display: flex;
+    height: 100%;
+    
+}
+.sizesheader button{
+    margin-right: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    color: #eee;
+}
+
+.sizesheader #add{
+    background-color:#56ad00;
+}
+.sizesheader #delete{
+    background-color:#dd0000
+}
+
+.InputSizes .sizeAdd{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: orange; */
+
+}
+.InputSizes .sizeAdd div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px 0;
+    padding: 5px;
+
+}
+.InputSizes .sizeAdd div>input:first-child{
+margin-left:5px  ;
+
+}
+.InputSizes .sizeAdd div input{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #333;
+    color: #ccc;
+    resize: none;
+    border: 1px solid #555;
+    height: 45px;
+    border-radius: 5px;
+
+}

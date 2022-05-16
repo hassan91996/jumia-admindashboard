@@ -1,0 +1,86 @@
+.AllCategories .CategoriesHeader {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #444;
+    position: sticky;
+    top: 50px;
+    padding: 5px 20px;
+    color: white;
+    z-index: 2;
+    border-bottom: 1px solid #666;
+}
+
+.CategoriesHeader .CatButtons {
+    display: flex;
+}
+
+.CategoriesHeader .CatButtons button ,
+.CategoriesHeader .CatButtons a {
+    margin: 0 5px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CategoriesHeader .CatButtons button .ButtonIcon {
+    margin-right: 5px;
+}
+
+.CategoriesHeader .CatButtons .CatAdd {
+    background-color: #494
+}
+
+.CategoriesHeader .CatButtons .CatUpdate {
+    background-color: #00a4f7
+}
+
+.CategoriesHeader .CatButtons .CatDelete {
+    background-color: #d00
+}
+
+.CategoriesHeader .CatButtons button:disabled ,
+.CategoriesHeader .CatButtons .disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    color: #555;
+    opacity: .5;
+}
+
+.AllCategories .DeletCategory{
+    width: 300px;
+    padding: 10px;
+    color: #999;
+    
+
+}
+.DeletCategory p{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+.DeletCategory .DeletButtons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+}
+.DeletButtons button{
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+    color: #ddd;
+    font-size: 18px;
+}
+.DeletButtons  .cancle{
+    background-color: #444;
+}
+.DeletButtons  .Delete{
+    background-color: #cc0000;
+}

@@ -1,0 +1,93 @@
+.Inputcontainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px auto;
+}
+
+.Inputcontainer .Input {
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #555;
+    border-radius: 5px;
+    width: 95%;
+    background-color: #333;
+}
+
+.Inputcontainer  .invalid {
+    border: 1px solid #883737;
+}
+
+.Inputcontainer  .Input input,
+.Inputcontainer  .Input textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    background-color: #333;
+    color: #ccc;
+    resize: none;
+
+
+}
+
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    box-shadow: 0 0 0 30px #333 inset !important;
+    -webkit-text-fill-color: #ccc;
+}
+
+.Input .select {
+    direction: ltr;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+
+}
+
+.Inputcontainer .Iconcontaniner {
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.Inputcontainer .Iconcontaniner:hover::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #555;
+    opacity: .5;
+    border-radius: 50%;
+
+}
+
+.Inputcontainer .error {
+    width: 95%;
+    text-align: right;
+    color: #f55;
+    font-size: 14px;
+
+}
+
+.Inputcontainer .lable {
+    width: 95%;
+    text-align: right;
+    font-size: 16px;
+    color: #aaa;
+}
+
+

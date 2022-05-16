@@ -1,0 +1,94 @@
+.OrderDetailes {
+    display: flex;
+    flex-direction: column;
+    background-color: #444;
+    position: relative;
+    padding: 70px 5px 5px;
+    border-radius: 5px;
+    margin: 40px auto 5px;
+    -webkit-box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    width: 800px;
+}
+
+.OrderDetailes .secHeader {
+    width: 100%;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.OrderDetailes .secHeader .Hcontainer {
+    background-color: #555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    color: #ccc;
+}
+
+.OrderDetailes .secHeader>p {
+    color: #ccc;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.OrderDetailes .OrderInfo {
+    background-color: #383838;
+}
+
+.OrderDetailes .OrderInfo h3 {
+    font-weight: 600;
+    color: #ddd;
+    margin-top:20px ;
+}
+.OrderDetailes .OrderInfo h3:first-child{
+    margin-top: 0;
+}
+.OrderInfo >p{
+    color:#ccc;
+    font-size: 17px;
+    padding: 2px 5px;
+    display: flex;
+    align-items: center;
+}
+.OrderInfo >p span{
+    font-size: 15px;
+    color: #aaa;
+}
+.OrderInfo >p .CheckIcon{
+    color: #5c5;
+    font-size: 20px;
+    margin: 0 5px;
+}
+.OrderInfo >p .clearIcon{
+    color: #c55;
+    font-size: 20px;
+    margin: 0 5px;
+}
+.OrderInfo .orderproductsTable{
+    margin: 10px auto 0;
+    width: 100%;
+    border-spacing: 0;
+    text-align: center;
+    word-break: break-all;
+    border-collapse: collapse;
+    color: #ccc;
+}
+
+.orderproductsTable th, td {
+    border: 1px solid #666;
+    padding: 5px 0;
+}
+.orderproductsTable .nameHeader{
+    width: 400px;
+}

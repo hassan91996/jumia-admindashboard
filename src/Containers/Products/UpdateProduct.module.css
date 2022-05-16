@@ -1,0 +1,73 @@
+.UpdateProduct{
+    margin: 40px auto 0;
+    padding: 70px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #444;
+    width: 650px;
+    position: relative;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    
+}
+
+.UpdateProduct  .secHeader {
+    width: 100%;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.UpdateProduct .secHeader .Hcontainer {
+    background-color: #555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    color: #ccc;
+}
+
+.UpdateProduct .secHeader>p {
+    color: #ccc;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.UpdateProduct .form {
+    width: 100%;
+    background-color: #3c3c3c;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+
+.UpdateProduct .form .submButton {
+    width: 95%;
+    margin: 5px 0;
+    padding: 10px;
+    color: white;
+    background-color: #56ad00;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.UpdateProduct .submButton:disabled {
+    background: #666;
+    cursor: not-allowed;
+    opacity: .5;
+}
+
+

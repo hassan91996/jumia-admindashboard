@@ -1,0 +1,59 @@
+.ImageUpdate{
+    margin: 40px auto 0;
+    padding: 70px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #444;
+    width: 650px;
+    position: relative;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    
+}
+
+.ImageUpdate  .secHeader {
+    width: 100%;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.ImageUpdate .secHeader .Hcontainer {
+    background-color: #555;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    box-shadow: 0px 0px 4px 4px rgb(0 0 0 / 6%);
+    color: #ccc;
+}
+
+.ImageUpdate .secHeader>p {
+    color: #ccc;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.ImageUpdate .ImagesForm .submButton {
+    width: 95%;
+    margin: 5px  auto;
+    padding: 10px;
+    color: white;
+    background-color: #56ad00;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.ImageUpdate .ImagesForm .submButton:disabled {
+    background: #666;
+    cursor: not-allowed;
+    opacity: .5;
+}

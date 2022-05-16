@@ -1,0 +1,49 @@
+.Sidebar{
+    height:100vh;
+    width: 300px;
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: white;
+}
+.Sidebar .MenuHeader{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-size: 20px;
+    background-color: #555;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #a9a8a8;
+}
+.MenuHeader>p{
+    margin-right: 10px;
+}
+.Sidebar .ControleItems{
+    padding: 5px;
+    overflow: auto;
+}
+.Sidebar .ControleItems li a{
+    color: #777;
+    padding: 10px  5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+   
+}
+   
+.Sidebar .ControleItems li a:hover,
+.Sidebar .ControleItems li a.active,
+.Sidebar .ControleItems li a:active{
+    background-color: #555;
+    border-radius: 5px;
+    color: #eae1e1;
+
+} 
+
+.Sidebar .Icon{
+    margin-left: 10px;
+} 

@@ -1,0 +1,45 @@
+.Oldorders {
+    display: flex;
+    flex-direction: column;
+}
+
+.Oldorders .OrdersHeader {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #444;
+    position: sticky;
+    top: 50px;
+    padding: 5px 20px;
+    color: white;
+    z-index: 2;
+    border-bottom: 1px solid #666; 
+}
+.Oldorders .noOrders{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    color: #ccc;
+}
+
+.Oldorders .OrdersTable {
+    margin: 10px auto 0;
+    width: 100%;
+    border-spacing: 0;
+    text-align: center;
+    word-break: break-all;
+    border-collapse: collapse;
+    color: #ccc;
+}
+
+.Oldorders .OrdersTable th, td {
+    border: 1px solid #666;
+    padding: 5px 0;
+
+}
+.Oldorders .OrdersTable td a{
+    color: white;
+}
+

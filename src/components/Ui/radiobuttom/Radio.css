@@ -1,0 +1,49 @@
+.Radiocontainer {
+    position: relative;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+  } 
+
+  .Radiocontainer label{
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.Radiocontainer input {
+  top: 13px;
+  right: 12px;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2000;
+}
+
+.Radiocontainer label .Iconcontaninerr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+   display: flex;
+   align-items: center;
+   margin-left: 10px;
+   padding: 0;
+   }
+ .Radiocontainer label:hover .Iconcontaninerr::before{
+  top: -8px;
+  right: -8px;
+  content: "";
+  position: absolute;
+  width: 40px;  
+   height: 40px;
+   background-color: #999;
+   opacity: .5;
+   border-radius: 50%;
+   z-index: 1;
+ }

@@ -1,0 +1,77 @@
+.PrintOrder {
+    height: 40px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.PrintOrder>button {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #3c3;
+}
+
+.Pdforder {
+    width: 8in;
+    height: 11.3in;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px auto;
+    border: 2px solid #000;
+    color: #000;
+    direction: rtl;
+    display: none
+}
+
+.Pdforder .pdfContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.Pdforder .pdfContent>h1 {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.Pdforder .pdfContent h3 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.Pdforder .pdfContent h3:first-child {
+    margin-top: 0;
+}
+
+.pdfContent>p {
+    font-size: 18px;
+    padding: 2px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.pdfContent>p span {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.pdfContent .orderproductsTable {
+    margin: 10px auto 0;
+    width: 100%;
+    border-spacing: 0;
+    text-align: center;
+    word-break: break-all;
+    border-collapse: collapse;
+}
+
+.orderproductsTable th, td {
+    border: 1px solid #000;
+    padding: 5px 0;
+}
+
+.orderproductsTable .nameHeader {
+    width: 400px;
+}

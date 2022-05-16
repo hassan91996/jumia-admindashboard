@@ -1,0 +1,143 @@
+.Products {
+  display: flex;
+  flex-direction: column;
+}
+
+.Products .ProductsHeader {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #444;
+  position: sticky;
+  top: 50px;
+  padding: 5px 20px;
+  color: white;
+  z-index: 2;
+  border-bottom: 1px solid #666;
+}
+
+.ProductsHeader .searchContainer  {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  height: 40px;
+  padding-right: 5px;
+  border-radius: 25px;
+  position: relative;
+  width: 400px;
+  background-color: #333;
+
+}
+
+.searchContainer .searchIcon, .searchContainer .clearIcon {
+  color: white;
+  font-size: 28px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.searchContainer ::placeholder {
+  color: #eae1e1;
+  opacity: 1;
+}
+
+.searchContainer input {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 25px 0 0 25px;
+  background-color: transparent;
+  color: #f3f1f1;
+
+}
+
+.searchContainer input:focus {
+  border: none;
+}
+
+.ProductsHeader .PFilter {
+  display: flex;
+}
+
+.ProductsHeader .CSelect {
+  display: flex;
+}
+
+.CSelect>p {
+  display: flex;
+  align-items: center;
+  color: #bdbdbd;
+  font-size: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.CSelect>button {
+  background-color: #be2525;
+  color: #f2f2f2;
+}
+
+.CSelect>p:hover, .CSelect .Pactive {
+  color: #f7f7ff;
+}
+
+.ProductsHeader button {
+  margin: 0 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.ProductsHeader .addbutton {
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #31a24c;
+  justify-content: space-between;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Products .CategorySelect {
+  display: flex;
+  flex-direction: column;
+  background-color: #222;
+}
+
+
+
+.Products .NoProducts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ddd;
+  padding: 20px;
+
+}
+.Products .NoProducts .xIcon {
+  font-size: 50px;
+}
+
+.Products .loadMore {
+  padding: 10px;
+  margin: 5px auto;
+  width: 150px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #aaa;
+  font-size: 16px;
+}
+
+.Products .loadMore:hover {
+  color: #fff;
+}
